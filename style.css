@@ -160,7 +160,7 @@
 
 
 header{
-    color: rgb(53, 53, 54);
+    color: rgb(53, 53, 54); 
     align-items: center;
     gap: 32px;
     display:flex;
