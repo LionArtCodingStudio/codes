@@ -1,24 +1,30 @@
-async function getGithubInfo(id) {
+async function getProjectInfo(id) {
   try {
-    const response = await fetch('projetos.json');
+    const response = await fetch('Projetos.json');
     
     const projetos = await response.json();
     
     const data = projetos.find(projeto => projeto.id === Number(id));
     
-    if (data) {
-      console.log(data);
-      console.log(`Projeto: ${data.nome}`); 
-    } else {
-      console.log(`Projeto com o ID ${id} não foi encontrado.`);
-    }
+    return data;
 
   } catch (error) {
-    console.error("Erro ao buscar os dados:", error);
+    return 0;
   }
 }
 
 // Executa a função
-getGithubInfo('1');
-getGithubInfo('2');
-
+has_project = true; //manten o loop aberto enquanto houver projetos
+do {
+  for (let i = 1; i <= 10; i++) { // Supondo que você tenha 10 projetos
+    const data = await getProjectInfo(i);
+    if (data) {
+      console.log(`Projeto: ${data.id} - ${data.nome}`);
+      console.log(`Data de Início: ${data.data_publicacao}`);
+      console.log(`Descrição: ${data.descricao}`);
+    }
+    if (!data) {
+      has_project = false;
+    }
+  }
+} while (has_project==true); 
