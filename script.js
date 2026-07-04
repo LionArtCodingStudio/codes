@@ -29,3 +29,7 @@ do {
     }
   }
 } while (has_project==true); 
+
+async function getPageInfo(id) {
+  const projetosContainer = document.querySelector ('');
+};
