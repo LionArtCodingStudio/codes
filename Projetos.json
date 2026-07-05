@@ -2,9 +2,10 @@
   {
     "id": 1,
     "nome": "Conversor Binário",
-    "descricao": "projeto de conversor binario focado em aprender o funcionamento por traz dos codigos",
+    "descricao": 
+    "conversor binario, decimal, hex e ascii, Este e um projeto com foco no estudo de numeros binarios e da linguagem de programação java, o projeto foi feito como trabalho da faculdade e para estudo pessoal, para a ui foi utilizado o netbeans",
     "linguagens": "JAVA",
-    "data_publicacao": "2024-01-01",
+    "data_publicacao": "26-02-2025",
     "repositorio": "https://github.com/LionArtCodingStudio/BinaryConversor"
   },
   {
@@ -12,7 +13,7 @@
     "nome": "Site Portifólio",
     "descricao": "este e o projeto deste mesmo site, que foi feito como trabalho da faculdade e para mostrar meus projetos e habilidades",
     "linguagens": "HTML, CSS, JavaScript",
-    "data_publicacao": "2024-02-15",
+    "data_publicacao": "27-06-2026",
     "repositorio": "https://github.com/LionArtCodingStudio/codes"
   }
 ]

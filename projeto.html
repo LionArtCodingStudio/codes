@@ -11,12 +11,19 @@
     </head>
 
     <body class="bg" id="detalhe-projeto">
-    <!-- cabecalho -->
+        <!-- menu -->
+        <nav style="margin-bottom: 20px;" class="menu"> >
+                <a href="index.html" style="color: white; margin-right: 15px; background: #b41a1a; ">Início</a>
+                <a href="sobre.html" style="color: white; margin-right: 15px;">Sobre</a>
+                <a href="contato.html" style="color: white;">Contato</a>
+        </nav>
+        <!-- cabecalho -->
         <header>
             <div>
                 <h1 id="nome-projeto"></h1>
             
                     <p><span class="imp" >linguagens: </span><span id="linguagens"></span></p>
+                    <p><span class="imp">Código-Fonte: </span><a id="link-repositorio" href="#" target="_blank" style="color: #b41a1a; font-weight: bold;">Ver no GitHub</a></p>
             </div>
         </header>
 
@@ -29,8 +36,16 @@
 
 
     <!-- rodape -->
-        <footer class="conteiner">
-            
+        <!-- rodape -->
+        <footer>
+            <div class="conteiner">
+                <section class="sect">
+                    <h3 class="pill">github: </h3>
+                    <a href="https://github.com/LionArtCodingStudio" target="_blank">
+                        <button>veja meus projetos no github </button>
+                    </a>
+                </section>
+            </div>
         </footer>
     </body>
     <script src="./script.js"></script>
