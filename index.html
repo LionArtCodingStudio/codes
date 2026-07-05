@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
         <title >Portifolio</title>
@@ -9,16 +10,23 @@
             href="./style.css"
         />
     </head>
+
     <body class="bg">
-            <!-- cabecalho -->
+
+        <!-- cabecalho -->
+        <nav style="margin-bottom: 20px;" class="menu"> >
+                <a href="index.html" style="color: white; margin-right: 15px; background: #b41a1a; ">Início</a>
+                <a href="sobre.html" style="color: white; margin-right: 15px;">Sobre</a>
+                <a href="contato.html" style="color: white;">Contato</a>
+        </nav>
         <header>
             
-            <img class="imgPerfil" src="src/TheLion Logo ICONE.png" alt="processador" width="300">   
+            <img class="imgPerfil" src="src/TheLion Logo ICONE.png" alt="logo lion art studio" width="300">   
             <div>
                 <h1>Leonardo santos da costa</h1>
-            
-                    <p><span class="imp">Curso: </span>Engenharia de software</p>
+                <p><span class="imp">Curso: </span>Engenharia de software</p>
             </div>
+
         </header>
 
         <section class="conteiner1">
@@ -55,65 +63,23 @@
                 <li>C</li>
             </ul>
         </section>
-
+        <!-- templete de projeto para uso com javascript e criaçao automatica de elementos -->
         <template id="template">
             <div >
-                <a href="`Projetos-repo`" method="get">
-                    <section type="submit"></section>  
+                <a href="#">
+                    <section></section>  
                 </a>                
                 <h3 class="Projetos-nome"></h3>
-                <p class="Projetos-data_publicacao"></p>
+                <h3 class="Projetos-data_publicacao"></h3>
                 <p class="Projetos-descricao"></p>
             </div>
         </template>
         
+        <!-- projetos -->
         <div class="conteiner">
             <div class="title"><p>Projetos</p></div>
             <div class="projetos">
-                
-                
-                <div >
-                    <a href="https://github.com/LionArtCodingStudio/BinaryConversor" method="get">
-                        <section type="submit"></section>  
-                    </a>
-                    
-                    <h3>Conversor binario</h3>
-                    <p align="center">
-                        projeto focado nos estudos de logica binaria e seus usos 
-                    </p>
-                </div>
-                
-                <div >
-                    <a href="https://github.com/LionArtCodingStudio/codes" method="get">
-                        <section type="submit"></section>  
-                    </a>
-                    
-                    <h3>Site portifolio</h3>
-                    <p align="center">
-                        <span class="imp">linguagem: </span> (HTML, CSS, JAVASCRIPT) <br>
-                        este e o projeto deste proprio site
-                    </p>
-                </div>
-
-                <div>
-                    <section></section>
-                    <h3>PROJETO-03</h3>
-                    <p align="center">
-                        este e um projeto de teste 
-                        simplesmente 
-                        para ocupar espaco
-                    </p>
-                </div>
-
-                <div>
-                    <section></section>
-                    <h3>PROJETO-04</h3>
-                    <p align="center">
-                        este e um projeto de teste 
-                        simplesmente 
-                        para ocupar espaco
-                    </p>
-                </div>
+                <!-- Os projetos serão inseridos aqui pelo JavaScript -->            
             </div>
         
         </div>
@@ -127,9 +93,9 @@
             <div class="conteiner">
                 <section class="sect">
                     <h3 class="pill">github: </h3>
-                    <form action="https://github.com/LionArtCodingStudio" method="get">
+                    <a href="https://github.com/LionArtCodingStudio" target="_blank">
                         <button type="submit">veja meus projetos no github </button>
-                    </form>
+                    </a>
                 </section>
             </div>
         </footer>

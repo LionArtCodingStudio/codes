@@ -3,6 +3,7 @@
     "id": 1,
     "nome": "Conversor Binário",
     "descricao": "projeto de conversor binario focado em aprender o funcionamento por traz dos codigos",
+    "linguagens": "JAVA",
     "data_publicacao": "2024-01-01",
     "repositorio": "https://github.com/LionArtCodingStudio/BinaryConversor"
   },
@@ -10,6 +11,7 @@
     "id": 2,
     "nome": "Site Portifólio",
     "descricao": "este e o projeto deste mesmo site, que foi feito como trabalho da faculdade e para mostrar meus projetos e habilidades",
+    "linguagens": "HTML, CSS, JavaScript",
     "data_publicacao": "2024-02-15",
     "repositorio": "https://github.com/LionArtCodingStudio/codes"
   }

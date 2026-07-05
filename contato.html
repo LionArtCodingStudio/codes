@@ -1,0 +1,35 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Portifolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body class="bg">
+    <nav style="margin-bottom: 20px;" class="menu"> >
+                <a href="index.html" style="color: white; margin-right: 15px; background: #b41a1a; ">Início</a>
+                <a href="sobre.html" style="color: white; margin-right: 15px;">Sobre</a>
+                <a href="contato.html" style="color: white;">Contato</a>
+    </nav>
+    <header>
+        <h1>Entre em Contato</h1>
+        <p><a href="index.html" style="color: white;">Voltar ao Início</a></p>
+    </header>
+
+    <section class="conteiner1">
+        <form id="form-contato" style="display: flex; flex-direction: column; gap: 10px;">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Seu nome" style="padding: 8px; border-radius: 6px;">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="seu@email.com" style="padding: 8px; border-radius: 6px;">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" rows="4" placeholder="Sua mensagem..." style="padding: 8px; border-radius: 6px;"></textarea>
+
+            <button type="submit" style="padding: 10px; background-color: rgb(27, 27, 27); color: white; border: none; border-radius: 6px; cursor: pointer;">Enviar Mensagem</button>
+        </form>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
